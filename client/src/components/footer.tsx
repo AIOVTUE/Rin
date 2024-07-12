@@ -102,4 +102,9 @@ function ThemeButton({ current, mode, label, icon, onClick }: { current: ThemeMo
     </button>)
 }
 
+<p>
+<a href="https://icp.gov.moe/?keyword=20245002" target="_blank">萌ICP备20245002号</a >
+</p>
+
+
 export default Footer;
