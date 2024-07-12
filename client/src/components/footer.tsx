@@ -46,7 +46,9 @@ function Footer() {
                 {footerHtml && <div dangerouslySetInnerHTML={{ __html: footerHtml }} />}
                 <p className='text-sm text-neutral-500 font-normal link-line'>
                     <span>
-                        © 2024 Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a>
+                        AIOVTUE
+                        <a href="https://icp.gov.moe/?keyword=20245002" target="_blank">萌ICP备20245002号</a >
+                        Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a>
                     </span>
                     {config.get<boolean>('rss') && <>
                         <Spliter />
@@ -102,9 +104,7 @@ function ThemeButton({ current, mode, label, icon, onClick }: { current: ThemeMo
     </button>)
 }
 
-<p>
-<a href="https://icp.gov.moe/?keyword=20245002" target="_blank">萌ICP备20245002号</a >
-</p>
+
 
 
 export default Footer;
