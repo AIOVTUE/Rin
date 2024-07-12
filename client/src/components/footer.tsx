@@ -46,9 +46,9 @@ function Footer() {
                 {footerHtml && <div dangerouslySetInnerHTML={{ __html: footerHtml }} />}
                 <p className='text-sm text-neutral-500 font-normal link-line'>
                     <span>
-                        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AIOVTUE<br>
-                        <a href="https://icp.gov.moe/?keyword=20245002" target="_blank">萌ICP备20245002号</a ><br>
-                        &nbsp;&nbsp;&nbsp;Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a></div>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AIOVTUE<br/>
+                        <a href="https://icp.gov.moe/?keyword=20245002" target="_blank">萌ICP备20245002号</a ><br/>
+                        &nbsp;&nbsp;&nbsp;Powered by <a className='hover:underline' href="https://github.com/openRin/Rin" target="_blank">Rin</a><br/>
                     </span>
                     {config.get<boolean>('rss') && <>
                         <Spliter />
